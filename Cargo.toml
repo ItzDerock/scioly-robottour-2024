@@ -20,3 +20,6 @@ embassy-rp = { version = "0.1.0", git = "https://github.com/embassy-rs/embassy",
 cyw43 = { version = "0.1.0", git = "https://github.com/embassy-rs/embassy", features = ["defmt", "firmware-logs"] }
 cyw43-pio = { version = "0.1.0", git = "https://github.com/embassy-rs/embassy", features = ["defmt", "overclock"] }
 static_cell = { version = "1.2.0", features = ["nightly"] }
+fixed = "1.25.1"
+pio-proc = "0.2.2"
+pio = "0.2.1"
